@@ -1,0 +1,2 @@
+# PMOD-keypad-lock
+The goal of the design was to create a 4-digit combination lock using the 16-key PMOD keypad from Digilent in combination with the Artix-7 XC7A35T Basys-3 FPGA. The output of the lock’s state was to be displayed on the Basys-3 board’s 7-segment display. The lock needed to display the unlocked state if and only if 4 specific (predefined) digits were pressed in sequential order on the keypad. Any other sequence of button presses should result in the locked state.
